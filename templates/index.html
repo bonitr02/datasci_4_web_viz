@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Flask Dental Hygiene App</title>
+</head>
+<body>
+
+<h2>All Teeth Lost in NY, CA and FL by Age-adjusted Prevalence</h2>
+
+<form method="post">
+    <select name="state" onchange="this.form.submit()">
+        {% for state in states %}
+        <option value="{{ state }}" {% if state == selected_state %} selected {% endif %}>{{ state }}</option>
+        {% endfor %}
+    </select>
+</form>
+
+<img src="data:image/png;base64,{{ img }}" alt="Dental Hygiene Visualization" />
+
+</body>
+</html>
