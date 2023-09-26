@@ -5,7 +5,7 @@ import pandas as pd
 
  # Load the dataset
 def load_data():
-    url = "https://raw.githubusercontent.com/bonitr02/datasci_4_web_viz/main/HEALTHYPLACES__Local_Data_for_Better_Health__County_Data_2023_release.csv"
+    url = "https://raw.githubusercontent.com/bonitr02/datasci_4_web_viz_1/main/datasets/HEALTHYPLACES__Local_Data_for_Better_Health__County_Data_2023_release.csv"
     return pd.read_csv(url)
   
 df = load_data()

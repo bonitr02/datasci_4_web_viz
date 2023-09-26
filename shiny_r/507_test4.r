@@ -23,7 +23,7 @@ server <- function(input, output, session) {
   
   # Load the dataset
   df <- reactive({
-    url <- "https://raw.githubusercontent.com/bonitr02/datasci_4_web_viz/main/HEALTHYPLACES__Local_Data_for_Better_Health__County_Data_2023_release.csv"
+    url <- "https://raw.githubusercontent.com/bonitr02/datasci_4_web_viz_1/main/datasets/HEALTHYPLACES__Local_Data_for_Better_Health__County_Data_2023_release.csv"
     read.csv(url)
   })
   
