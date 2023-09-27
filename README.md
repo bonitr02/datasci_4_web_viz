@@ -18,6 +18,8 @@ https://fh0bjx-bonitr02.shinyapps.io/my-app1/
 
 # Markdown Reflections <br>
 
+I experienced some difficulties with GitHub with creating branches and being unable to push successfully after deploying the final app. This led me to creating a new repo with a slightly different name: datasci_4_web_viz_1.
+
 ## Shiny R <br>
 
 ### <u>Thoughts</u> <br>
@@ -57,4 +59,5 @@ Solution: Using a web search, found an alternate command for rsconnect that allo
 
 <p>Challenge: Difficulty running app due to index.html file not being configured properly<br>
 Solution: After a web search, renamed index.html, created templates folder, and added under the python_flask folder</p> <br>
+
 
